@@ -6,3 +6,4 @@
 - yarn add react-native-reanimated
 - expo install react-native-gesture-handler react-native-reanimated
 - https://reactnavigation.org/docs/drawer-navigator
+- npm install axios

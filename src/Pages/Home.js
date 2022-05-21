@@ -1,12 +1,16 @@
 import * as React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { useState } from 'react';
+import { View, Text, StyleSheet, TextInput, TouchableOpacity } from 'react-native';
+import FindCep from '../components/findCep';
+import Cep from '../components/cep';
+import API from '../components/api';
 
-function Home({ navigation }) {
+function Home(props) {
+
     return (
         <View style={styles.container}>
-            <Text>texto</Text>
+            <FindCep/>
+           
         </View>
     );
 }
@@ -14,11 +18,10 @@ function Home({ navigation }) {
 const styles = StyleSheet.create({
 
     container: {
-        flex: 1, 
-        alignItems: 'center', 
+        flex: 1,
+        alignItems: 'center',
         justifyContent: 'center'
     }
-
 })
 
 export default Home
