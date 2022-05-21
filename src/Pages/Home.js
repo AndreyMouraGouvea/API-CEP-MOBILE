@@ -9,8 +9,7 @@ function Home(props) {
 
     return (
         <View style={styles.container}>
-            <FindCep/>
-           
+            <FindCep/>           
         </View>
     );
 }

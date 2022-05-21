@@ -7,22 +7,22 @@ function Cep(props) {
     return (
         <View style={styles.cepResultContainer}>
 
-                <Text style={styles.text}>
-                    CEP: {props.data.cep}
-                </Text>
-                <Text style={styles.text}>
-                    Logradouro: {props.data.logradouro}
-                </Text>
-                <Text style={styles.text}>
-                    Bairro: {props.data.bairro}
-                </Text>
-                <Text style={styles.text}>
-                    Localidade: {props.data.localidade}
-                </Text>
-                <Text style={styles.text}>
-                    UF: {props.data.uf}
-                </Text>
-            </View>
+            <Text style={styles.text}>
+                CEP: {props.data.cep}
+            </Text>
+            <Text style={styles.text}>
+                Logradouro: {props.data.logradouro}
+            </Text>
+            <Text style={styles.text}>
+                Bairro: {props.data.bairro}
+            </Text>
+            <Text style={styles.text}>
+                Localidade: {props.data.localidade}
+            </Text>
+            <Text style={styles.text}>
+                UF: {props.data.uf}
+            </Text>
+        </View>
     )
 
 }
